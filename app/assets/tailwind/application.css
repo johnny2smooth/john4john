@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Beausite Classic";
+  src: url("https://db.onlinewebfonts.com/t/81db551dd19e720ed0bc40dbde312130.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/81db551dd19e720ed0bc40dbde312130.woff") format("woff");
+  font-style: normal; font-weight: 400; font-display: swap;
+}
+
+@font-face {
+    font-family: "Beausite Classic";
+    src: url("https://db.onlinewebfonts.com/t/137afa694d16d97fb87a05a7bc34d2a9.woff2")format("woff2"),
+	 url("https://db.onlinewebfonts.com/t/137afa694d16d97fb87a05a7bc34d2a9.woff")format("woff");
+    font-style: normal; font-weight: 200; font-display: swap;
+}
+
+@font-face {
+    font-family: "Beausite Classic";
+    src: url("https://db.onlinewebfonts.com/t/bc5c70f2c48b9b21cce2cf2f9f6ea011.woff2")format("woff2"),
+         url("https://db.onlinewebfonts.com/t/bc5c70f2c48b9b21cce2cf2f9f6ea011.woff")format("woff");
+    font-style: normal; font-weight: 700; font-display: swap;
+}
+
+@font-face {
+    font-family: "Beausite Classic Italic";
+    src: url("https://db.onlinewebfonts.com/t/1530d7da5ba4d5b66fd471f253563a85.woff2")format("woff2"),
+	 url("https://db.onlinewebfonts.com/t/1530d7da5ba4d5b66fd471f253563a85.woff")format("woff");
+}
+
+@font-face {
+    font-family: "Beausite Classic Italic";
+    src: url("https://db.onlinewebfonts.com/t/85091b62e3830c9ec2c8ad142765d422.woff2")format("woff2"),
+	 url("https://db.onlinewebfonts.com/t/85091b62e3830c9ec2c8ad142765d422.woff")format("woff");
+    font-weight: 200;
+}
+
+html[data-turbo-visit-direction="forward"]::view-transition-old(sidebar):only-child {
+  animation: slide-to-right 0.5s ease-out;
+}
