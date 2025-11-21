@@ -20,7 +20,11 @@ servers:
 proxy:
   ssl: true
   host: john4john.com
-
+  app_port: 3000
+  healthcheck:
+      path: /up
+      interval: 2
+      timeout: 30
 # Credentials for your image host.
 registry:
   # Specify the registry server, if you're not using Docker Hub
